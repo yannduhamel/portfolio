@@ -7,6 +7,10 @@ export default {
         migra: ["Migra Extrabold"],
         inter: ["Inter"],
       },
+      colors: {
+        current: "currentColor",
+        saffron: "#F3CA40",
+      },
     },
   },
   plugins: [],

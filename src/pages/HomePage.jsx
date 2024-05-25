@@ -11,8 +11,9 @@ export default function HomePage() {
       </div>
       <div>
         <h2 className="font-inter text-3xl">
-          Je suis <span className="font-bold">Yann</span>, développeur web
-          installé en <span className="font-bold">Bretagne</span>
+          Je suis <span className="font-bold text-saffron">Yann</span>,
+          développeur web installé en{" "}
+          <span className="font-bold text-saffron">Bretagne</span>
         </h2>
       </div>
     </div>
