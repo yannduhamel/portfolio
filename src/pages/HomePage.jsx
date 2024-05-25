@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import TextRotate from "../components/TextRotate";
 
 export default function HomePage() {
   return (
@@ -46,8 +47,11 @@ export default function HomePage() {
           <p className="text-2xl">
             Mon parcours m&apos;a fait passer par le marketing, le graphisme et
             la menuiserie mais c&apos;est dans la création de site web que je
-            m&apos;épanoui aujourd&apos;hui! <br />
-            <br /> J&apos;y utilise
+            m&apos;épanoui aujourd&apos;hui! J&apos;y utilise:
+            <br />
+            <span className="flex justify-center">
+              <TextRotate />
+            </span>
           </p>
           <button className="mt-8 p-4 border-2 border-solid border-white rounded-full hover:border-saffron hover:text-saffron hover:font-bold">
             <NavLink to="/contact">Mon curriculum vitae</NavLink>
