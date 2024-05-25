@@ -18,11 +18,13 @@ export default function Footer() {
             </NavLink>
           </li>
           <li>
-            <img
-              src="../../public/images/github.png"
-              alt="logo Github"
-              className="max-h-6"
-            />
+            <NavLink>
+              <img
+                src="../../public/images/github.png"
+                alt="logo Github"
+                className="max-h-6"
+              />
+            </NavLink>
           </li>
         </ul>
       </div>
