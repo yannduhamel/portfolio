@@ -7,7 +7,7 @@ function WordRotate({
   words = [
     "JavaScript",
     "React",
-    "TailwindCSS",
+    "CSS & TailwindCSS",
     "Node.js",
     "Express.js",
     "SQL",
@@ -37,20 +37,16 @@ function WordRotate({
   return (
     <div className="overflow-hidden py-2 text-3xl font-bold text-saffron">
       <AnimatePresence mode="wait">
-        <motion.h1
-          key={words[index]}
-          className={cn(className)}
-          {...framerProps}
-        >
+        <motion.p key={words[index]} className={cn(className)} {...framerProps}>
           {words[index]}
-        </motion.h1>
+        </motion.p>
       </AnimatePresence>
     </div>
   );
 }
 
 WordRotate.propTypes = {
-  words: PropTypes.arrayOf(PropTypes.string).isRequired,
+  words: PropTypes.arrayOf(PropTypes.string),
   duration: PropTypes.number,
   framerProps: PropTypes.object,
   className: PropTypes.string,
