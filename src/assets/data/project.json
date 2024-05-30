@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "name": "World Wild Eat",
+    "type": "Projet de formation",
+    "image": "lien image projet 1",
+    "description": "description projet 1",
+    "stack": "stack technique"
+  },
+
+  {
+    "id": "2",
+    "name": "LibrArt",
+    "type": "Projet de formation",
+    "image": "lien image projet 2",
+    "description": "description projet 2",
+    "stack": "stack technique"
+  },
+  {
+    "id": "3",
+    "name": "Wilder Shelter",
+    "type": "Protojam",
+    "image": "lien image protojam",
+    "description": "description protojam",
+    "stack": "stack technique"
+  },
+  {
+    "id": "4",
+    "name": "Mixology Mate",
+    "type": "Projet personnel",
+    "image": "lien image Mixology Mate",
+    "description": "description Mixology Mate",
+    "stack": "stack technique"
+  }
+]

@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <main className="mx-8">
       <section
-        className="h-[90svh] w-[80svw] mx-auto flex flex-col items-center justify-evenly text-center"
+        className="h-[87svh] w-[80svw] mx-auto flex flex-col items-center justify-evenly text-center"
         id="landing"
       >
         <div className=" flex flex-col items-center relative text-center">
