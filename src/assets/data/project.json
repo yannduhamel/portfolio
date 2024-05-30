@@ -3,7 +3,9 @@
     "id": "1",
     "name": "World Wild Eat",
     "type": "Projet de formation",
-    "image": "lien image projet 1",
+    "image": "../../../public/images/worldwildeat.png",
+    "alt": "Illustration du projet par une photo de Megan Bucknail",
+    "credit": "https://www.meganbucknall.com/",
     "description": "description projet 1",
     "stack": "stack technique"
   },
@@ -12,7 +14,9 @@
     "id": "2",
     "name": "LibrArt",
     "type": "Projet de formation",
-    "image": "lien image projet 2",
+    "image": "../../../public/images/librart.png",
+    "alt": "Illustration du projet par un tableau de  Vincent Van Gogh",
+    "credit": "https://artvee.com/main/?s=van+gogh",
     "description": "description projet 2",
     "stack": "stack technique"
   },
@@ -20,7 +24,9 @@
     "id": "3",
     "name": "Wilder Shelter",
     "type": "Protojam",
-    "image": "lien image protojam",
+    "image": "../../../public/images/wildershelter.png",
+    "alt": "Illustration du projet par une photo de Matteo Catanese",
+    "credit": "https://www.matteocatanese.com/",
     "description": "description protojam",
     "stack": "stack technique"
   },
@@ -28,7 +34,9 @@
     "id": "4",
     "name": "Mixology Mate",
     "type": "Projet personnel",
-    "image": "lien image Mixology Mate",
+    "image": "../../../public/images/mixologymate.png",
+    "alt": "Illustration du projet par une photo de Olena Bohovyk",
+    "credit": "https://www.behance.net/olenkabohovyk",
     "description": "description Mixology Mate",
     "stack": "stack technique"
   }
