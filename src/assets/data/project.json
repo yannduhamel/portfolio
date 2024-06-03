@@ -2,33 +2,52 @@
   {
     "id": "1",
     "name": "World Wild Eat",
-    "type": "Projet de formation",
+    "type": "Projet de formation en groupe",
+    "group": "En groupe",
     "image": "../../../public/images/worldwildeat.png",
     "alt": "Illustration du projet par une photo de Megan Bucknail",
     "credit": "https://www.meganbucknall.com/",
-    "description": "description projet 1",
-    "stack": "stack technique"
+    "description": "Projet numéro 1 du bootcamp développeur web JavaScript. La consigne: réaliser un site web comportant des parties dynamiques et en ne travaillant qu'en mono-fichier: un seul fichier HTML, un seul fichier CSS et un seul fichier JavaScript. Par ailleurs, le code ne devait pas avoir recours à des librairies ou frameworks; tout le développement est donc en mode vanilla. La proposition: World Wild Eat est site de recommandations de restaurants ciblés par région. La volonté n'est pas de fourni une liste exhaustive des établissements de chacune des régions mais plutôt une sélection pointue, par ville, village et coup de cœur des administrateurs.",
+    "stack": {
+      "stack1": "HTML",
+      "stack2": "CSS",
+      "stack3": "JavaScript"
+    },
+    "website": "https://camille-haxa.github.io/world-wild-eat/",
+    "repo": "https://github.com/yannduhamel/world-wild-eat"
   },
 
   {
     "id": "2",
     "name": "LibrArt",
-    "type": "Projet de formation",
+    "type": "Projet de formation en groupe",
     "image": "../../../public/images/librart.png",
     "alt": "Illustration du projet par un tableau de  Vincent Van Gogh",
     "credit": "https://artvee.com/main/?s=van+gogh",
-    "description": "description projet 2",
-    "stack": "stack technique"
+    "description": "Projet numéro 2 du bootcamp développeur web JavaScript. La consigne: réaliser un site dynamique en récupérant et utilisant les données d'une API librement choisie ainsi que la méthodologie Scrum pour la partie gestion de projet. La proposition: une galerie d’œuvres d'art libres de droit, facilement consultables et téléchargeables, qui utilise les données de l'API du Metropolitan Museum. Les principales fonctionnalités: nous avons développé et intégré un système de barre de recherche, des filtres pré-renseignés qui permettent à l'utilisateur de voir les méthodes existantes de recherche (par pays de l'artiste, nom de l'artiste ou année de réalisation de l’œuvre), un menu burger en version mobile qui devient un menu en ligne dans la version desktop, des routes entre les différentes pages mais aussi entre l'API et les parties du site nécessitant un affichage dynamique.",
+    "stack": {
+      "stack1": "React",
+      "stack2": "Express",
+      "stack3": "Modules CSS"
+    },
+    "website": "https://librart-open-art-gallery.vercel.app/",
+    "repo": "https://github.com/yannduhamel/librart"
   },
   {
     "id": "3",
     "name": "Wilder Shelter",
-    "type": "Protojam",
+    "type": "Protojam en groupe",
     "image": "../../../public/images/wildershelter.png",
     "alt": "Illustration du projet par une photo de Matteo Catanese",
     "credit": "https://www.matteocatanese.com/",
-    "description": "description protojam",
-    "stack": "stack technique"
+    "description": "Premier projet de type hackaton dans le cadre de la formation. L'objectif était de réaliser un site web en une trentaine d'heures, dans une équipe où les promotions étaient mélangées. La proposition: un outil permettant aux amoureux de randonnée en altitude de trouver les refuges de montagne. Ceux-ci sont classés par chaine montagneuse mais également géolocalisés sur la carte du site.",
+    "stack": {
+      "stack1": "React",
+      "stack2": "React Router DOM",
+      "stack3": "API"
+    },
+    "website": "https://wilder-shelter.vercel.app/",
+    "repo": "https://github.com/yannduhamel/wilder-shelter"
   },
   {
     "id": "4",
@@ -37,7 +56,13 @@
     "image": "../../../public/images/mixologymate.png",
     "alt": "Illustration du projet par une photo de Olena Bohovyk",
     "credit": "https://www.behance.net/olenkabohovyk",
-    "description": "description Mixology Mate",
-    "stack": "stack technique"
+    "description": "L'idée de Mixology Mate est de proposer un outil pour tous ceux et celles qui souhaitent réaliser eux-même leurs cocktails. Mixology Mate les aide dans leur choix via une succession de questions afin de trouver la boisson idéale!",
+    "stack": {
+      "stack1": "",
+      "stack2": "",
+      "stack3": ""
+    },
+    "website": "https://www.linkedin.com/in/yannduhamel/",
+    "repo": "https://www.linkedin.com/in/yannduhamel/"
   }
 ]
