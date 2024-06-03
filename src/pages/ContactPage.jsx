@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <div className="grid sm:grid-cols-2 items-center gap-16 h-[72svh] my-6 mx-auto max-w-4xl">
+    <div className="mx-8 grid sm:grid-cols-2 items-center gap-16 lg:h-[72svh] my-6 max-w-4xl">
       <div>
         <h1 className="text-3xl text-saffron font-extrabold">Contactez-moi!</h1>
         <p className="text-sm mt-3">
@@ -34,7 +34,7 @@ export default function ContactPage() {
             </li>
           </ul>
         </div>
-        <div className="mt-12"></div>
+        <div></div>
       </div>
       <form
         className="ml-auo space-y-4"
