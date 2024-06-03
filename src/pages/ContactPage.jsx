@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <div className="mx-8 grid sm:grid-cols-2 items-center gap-16 lg:h-[72svh] my-6 max-w-4xl">
+    <div className="mx-8 lg:mx-auto grid sm:grid-cols-2 items-center gap-16 lg:h-[72svh] my-6 max-w-4xl">
       <div>
         <h1 className="text-3xl text-saffron font-extrabold">Contactez-moi!</h1>
         <p className="text-sm mt-3">
