@@ -6,6 +6,7 @@ import "./index.css";
 import HomePage from "./pages/HomePage.jsx";
 import PresentationPage from "./pages/PresentationPage.jsx";
 import ProjectPage from "./pages/ProjectPage.jsx";
+import ProjectDetailPage from "./pages/ProjectDetailPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/projets",
         element: <ProjectPage />,
+      },
+      {
+        path: "/projets/:id",
+        element: <ProjectDetailPage />,
       },
       {
         path: "/contact",

@@ -6,7 +6,6 @@ import "swiper/css/navigation";
 
 import project from "../assets/data/project.json";
 import ProjectCard from "./ProjectCard";
-import { NavLink } from "react-router-dom";
 
 export default function ProjectList() {
   return (
@@ -42,13 +41,12 @@ export default function ProjectList() {
       >
         <div>
           {" "}
-          {project.map((p) => (
-            <SwiperSlide key={p.id}>
-              <NavLink>
+          {project &&
+            project.map((p) => (
+              <SwiperSlide key={p.id}>
                 <ProjectCard data={p} />
-              </NavLink>
-            </SwiperSlide>
-          ))}
+              </SwiperSlide>
+            ))}
         </div>
       </Swiper>
     </>
