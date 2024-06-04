@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
-import project from "../assets/data/project.json";
+import project from "../../public/data/project.json";
+import left from "../assets/icon/left.svg";
 
 export default function ProjectDetailPage() {
   const { id } = useParams();
@@ -16,8 +17,7 @@ export default function ProjectDetailPage() {
         onClick={handleBack}
         className="flex gap-1 ml-4 md:ml-12"
       >
-        <img src="/public/left.svg" alt="Flèche gauche de retour en arrière" />{" "}
-        Retour
+        <img src={left} alt="Flèche gauche de retour en arrière" /> Retour
       </button>
       <div className="flex flex-col lg:flex-row lg:justify-evenly items-center mx-8 lg:h-[72svh]">
         <img

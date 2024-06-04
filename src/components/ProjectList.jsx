@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import project from "../assets/data/project.json";
+import project from "../../public/data/project.json";
 import ProjectCard from "./ProjectCard";
 
 export default function ProjectList() {
