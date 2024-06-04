@@ -9,7 +9,9 @@ export default function ContactPage() {
   if (state.succeeded) {
     return (
       <div className="flex flex-col justify-center items-center">
-        <p className="text-4xl lg:text-7xl">Merci pour votre message!</p>
+        <p className="font-migra text-saffron text-4xl lg:text-7xl">
+          Merci pour votre message!
+        </p>
         <button type="button" onClick={handleBack} className="flex gap-1">
           <img src={left} alt="Flèche gauche de retour en arrière" /> Retour
         </button>
