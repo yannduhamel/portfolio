@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  border: 1px solid red;
-} */
+* {
+  scroll-behavior: smooth;
+  /* border: 1px solid red; */
+}
 
 body {
   background-color: #007e5d;
