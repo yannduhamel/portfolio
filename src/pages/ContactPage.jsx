@@ -8,7 +8,7 @@ export default function ContactPage() {
   const [state, handleSubmit] = useForm("xrgnwbvw");
   if (state.succeeded) {
     return (
-      <div className="flex flex-col justify-center items-center">
+      <div className="h-[70svh] flex flex-col justify-center items-center">
         <p className="font-migra text-saffron text-4xl lg:text-7xl">
           Merci pour votre message!
         </p>
