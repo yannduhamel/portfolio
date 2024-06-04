@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import linkedin from "../assets/images/linkedin.png";
+import github from "../assets/images/github.png";
 
 export default function Footer() {
   return (
@@ -10,20 +12,12 @@ export default function Footer() {
               to="https://www.linkedin.com/in/yannduhamel/"
               target="_blank"
             >
-              <img
-                src="../../public/images/linkedin.png"
-                alt="logo LinkedIn"
-                className="max-h-6"
-              />
+              <img src={linkedin} alt="logo LinkedIn" className="max-h-6" />
             </NavLink>
           </li>
           <li>
             <NavLink>
-              <img
-                src="../../public/images/github.png"
-                alt="logo Github"
-                className="max-h-6"
-              />
+              <img src={github} alt="logo Github" className="max-h-6" />
             </NavLink>
           </li>
         </ul>

@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 import TextRotate from "../components/TextRotate";
+import photoProfil from "../assets/images/duotone.jpg";
+import up from "../assets/icon/up.svg";
+import down from "../assets/icon/down.svg";
 
 export default function HomePage() {
   return (
@@ -10,7 +13,7 @@ export default function HomePage() {
       >
         <div className=" flex flex-col items-center relative text-center">
           <img
-            src="../../public/images/duotone.jpg"
+            src={photoProfil}
             alt="photo de profil"
             className="max-h-[40svh] rounded-full mx-auto"
           />
@@ -37,7 +40,7 @@ export default function HomePage() {
           <button className="w-12 h-12 border-2 border-solid border-white rounded-full flex justify-center items-center hover:border-saffron">
             <a href="#first-section">
               <img
-                src="../../public/down.svg"
+                src={down}
                 alt="Lien d'ancrage descendant"
                 className="max-h-7"
               />
@@ -71,7 +74,7 @@ export default function HomePage() {
           <button className="w-12 h-12 border-2 border-solid border-white rounded-full flex justify-center items-center hover:border-saffron">
             <a href="#second-section">
               <img
-                src="../../public/down.svg"
+                src={down}
                 alt="Lien d'ancrage descendant"
                 className="max-h-7"
               />
@@ -96,7 +99,7 @@ export default function HomePage() {
           <button className="w-12 h-12 border-2 border-solid border-white rounded-full flex justify-center items-center hover:border-saffron">
             <a href="#landing">
               <img
-                src="../../public/up.svg"
+                src={up}
                 alt="Lien d'ancrage ascendant"
                 className="max-h-7"
               />
