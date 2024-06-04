@@ -1,4 +1,10 @@
+import { useForm, ValidationError } from "@formspree/react";
+
 export default function ContactPage() {
+  const [state, handleSubmit] = useForm("xrgnwbvw");
+  if (state.succeeded) {
+    return <p>Merci!</p>;
+  }
   return (
     <div className="mx-8 lg:mx-auto grid sm:grid-cols-2 items-center gap-16 lg:h-[72svh] my-6 max-w-4xl">
       <div>
@@ -27,34 +33,39 @@ export default function ContactPage() {
                   />
                 </svg>
               </div>
-              <a href="javascript:void(0)" className=" text-sm ml-3">
-                <small className="block">Mail</small>
+              <p className=" text-sm ml-3">
                 <strong>yann.duhamel[at]gmail.com</strong>
-              </a>
+              </p>
             </li>
           </ul>
         </div>
         <div></div>
       </div>
-      <form
-        className="ml-auo space-y-4"
-        action="https://formspree.io/f/xrgnwbvw"
-        method="POST"
-      >
+      <form className="ml-auo space-y-4" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Prénom & nom"
           className="w-full rounded-md py-3 px-4 bg-gray-100 text-sm text-[#007e5d]"
         />
         <input
+          id="email"
           type="email"
+          name="email"
           placeholder="Email"
           className="w-full rounded-md py-3 px-4 bg-gray-100 text-sm text-[#007e5d]"
         />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
         <input
+          id="message"
           type="text"
+          name="message"
           placeholder="Sujet"
           className="w-full rounded-md py-3 px-4 bg-gray-100 text-sm text-[#007e5d]"
+        />
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
         />
         <textarea
           placeholder="Message"
