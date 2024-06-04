@@ -73,7 +73,8 @@ export default function ContactPage() {
           className="w-full rounded-md px-4 bg-gray-100 text-sm pt-3 text-[#007e5d]"
         ></textarea>
         <button
-          type="button"
+          type="submit"
+          disabled={state.submitting}
           className="text-white bg-saffron font-semibold rounded-md text-sm px-4 py-3 w-full"
         >
           C&apos;est parti!
