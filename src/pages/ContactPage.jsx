@@ -1,9 +1,22 @@
 import { useForm, ValidationError } from "@formspree/react";
+import left from "../assets/icon/left.svg";
 
 export default function ContactPage() {
+  const handleBack = () => {
+    window.history.back();
+  };
   const [state, handleSubmit] = useForm("xrgnwbvw");
   if (state.succeeded) {
-    return <p>Merci!</p>;
+    return (
+      <div className="flex flex-col justify-center items-center">
+        <p className="font-migra text-saffron text-4xl lg:text-7xl">
+          Merci pour votre message!
+        </p>
+        <button type="button" onClick={handleBack} className="flex gap-1">
+          <img src={left} alt="Flèche gauche de retour en arrière" /> Retour
+        </button>
+      </div>
+    );
   }
   return (
     <div className="mx-8 lg:mx-auto grid sm:grid-cols-2 items-center gap-16 lg:h-[72svh] my-6 max-w-4xl">
