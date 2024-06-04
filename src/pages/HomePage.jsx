@@ -3,6 +3,7 @@ import TextRotate from "../components/TextRotate";
 import photoProfil from "../assets/images/duotone.jpg";
 import up from "../assets/icon/up.svg";
 import down from "../assets/icon/down.svg";
+import cv from "../assets/data/CVYannDuhamel.pdf";
 
 export default function HomePage() {
   return (
@@ -60,11 +61,7 @@ export default function HomePage() {
           </p>
           <TextRotate />
           <button className="mt-8 p-4 border-2 border-solid border-white rounded-full hover:border-saffron hover:text-saffron hover:font-bold">
-            <NavLink
-              to="/src/assets/CVYannDuhamel.pdf"
-              target="_blank"
-              download
-            >
+            <NavLink to={cv} target="_blank" download>
               Mon curriculum vitae
             </NavLink>
           </button>
