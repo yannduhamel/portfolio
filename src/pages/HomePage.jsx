@@ -57,7 +57,7 @@ export default function HomePage() {
           <p className="text-2xl">
             Mon parcours m&apos;a fait passer par le marketing, le graphisme et
             la menuiserie mais c&apos;est dans la création de site web que je
-            m&apos;épanoui aujourd&apos;hui! J&apos;y utilise:
+            m&apos;épanouis aujourd&apos;hui! J&apos;y utilise:
           </p>
           <TextRotate />
           <button className="mt-8 p-4 border-2 border-solid border-white rounded-full hover:border-saffron hover:text-saffron hover:font-bold">
