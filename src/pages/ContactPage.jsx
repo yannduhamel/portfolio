@@ -10,7 +10,7 @@ export default function ContactPage() {
     return (
       <div className="h-[70svh] flex flex-col justify-center items-center">
         <p className="font-migra text-saffron text-4xl lg:text-7xl">
-          Merci pour votre message!
+          Merci pour ton message!
         </p>
         <button type="button" onClick={handleBack} className="flex gap-1">
           <img src={left} alt="Flèche gauche de retour en arrière" /> Retour
@@ -21,9 +21,9 @@ export default function ContactPage() {
   return (
     <div className="mx-8 lg:mx-auto grid sm:grid-cols-2 items-center gap-16 lg:h-[72svh] my-6 max-w-4xl">
       <div>
-        <h1 className="text-3xl text-saffron font-extrabold">Contactez-moi!</h1>
+        <h1 className="text-3xl text-saffron font-extrabold">Contacte-moi!</h1>
         <p className="text-sm mt-3">
-          Que vous ayez une question, un poste à me proposer ou la volonté de me
+          Que tu aies une question, un poste à me proposer ou la volonté de me
           dire à quel point les alpagas sont des animaux fabuleux (je suis
           d&apos;accord!) toutes les raisons sont bonnes pour m&apos;envoyer un
           message.
