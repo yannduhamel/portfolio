@@ -51,6 +51,22 @@
   },
   {
     "id": "4",
+    "name": "Eating Nam Nam",
+    "type": "Projet de formation en groupe",
+    "image": "/images/eatingnamnam.png",
+    "alt": "Illustration du projet par une photo de Cala",
+    "credit": "https://unsplash.com/fr/@calajay",
+    "description": "Projet numéro 3 du bootcamp développeur web JavaScript. La consigne: réaliser un site web dynamique en équipe de 5 personnes, en utilisant l'ensemble des compétences acquises durant la formation, qu'il s'agisse de front-end, de back-end ou de base de données et de manière à répondre à une demande d'un client. Le développement suit la méthode agile avec un système de daily, de sprints et d'échanges avec le client. La proposition: Eating Nam Nam est une plateforme de partage de recettes zéro déchet.",
+    "stack": {
+      "stack1": "React",
+      "stack2": "Express",
+      "stack3": "MySQL"
+    },
+    "website": "https://foodtastics.remote-fr-4.wilders.dev/",
+    "repo": "https://github.com/WildCodeSchool-2024-02/WildCodeSchool-2024-02-JS-Remote-JavaScrypte-P3-FoodTastics"
+  },
+  {
+    "id": "5",
     "name": "Mixology Mate",
     "type": "Projet personnel",
     "image": "/images/mixologymate.png",
@@ -58,9 +74,9 @@
     "credit": "https://www.behance.net/olenkabohovyk",
     "description": "L'idée de Mixology Mate est de proposer un outil pour tous ceux et celles qui souhaitent réaliser eux-même leurs cocktails. Mixology Mate les aide dans leur choix via une succession de questions afin de trouver la boisson idéale!",
     "stack": {
-      "stack1": "",
-      "stack2": "",
-      "stack3": ""
+      "stack1": "React",
+      "stack2": "CSS",
+      "stack3": "JSON"
     },
     "website": "https://mixology-mate.vercel.app/",
     "repo": "https://github.com/yannduhamel/mixology-mate"
